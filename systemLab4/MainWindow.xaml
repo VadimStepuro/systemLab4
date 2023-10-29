@@ -1,0 +1,32 @@
+﻿<Window x:Class="systemLab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:systemLab4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="totalTimeBox" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="152,78,528,309" />
+        <TextBox x:Name="minTimeBox" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="152,170,528,217"/>
+        <TextBlock TextWrapping="Wrap" Text="Total time" Margin="10,80,694,309"/>
+        <TextBlock TextWrapping="Wrap" Text="Minimum time for action" Margin="10,172,694,194"/>
+        <TextBox x:Name="output" TextWrapping="Wrap" Text="" Margin="339,35,270,35"/>
+        <Button Content="Start" Margin="78,349,588,31" Click="Button_Click"/>
+        <Rectangle x:Name="philosopher1" Stroke="Black" Margin="658,53,85,341"/>
+        <Rectangle x:Name="philosopher2" Stroke="Black" Margin="658,120,85,273"/>
+        <Rectangle x:Name="philosopher3" Stroke="Black" Margin="658,190,85,199"/>
+        <Rectangle x:Name="philosopher4" Stroke="Black" Margin="658,275,85,114"/>
+        <Rectangle x:Name="philosopher5" Stroke="Black" Margin="658,353,85,35"/>
+        <Rectangle x:Name="fork1" Stroke="Black" Margin="571,78,172,316"/>
+        <Rectangle x:Name="fork2" Stroke="Black" Margin="571,145,172,248"/>
+        <Rectangle x:Name="fork3" Stroke="Black" Margin="571,215,172,174"/>
+        <Rectangle x:Name="fork4" Stroke="Black" Margin="571,300,172,89"/>
+        <Rectangle x:Name="fork5" Stroke="Black" Margin="571,378,172,10"/>
+        <TextBox x:Name="maxTimeBox" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="152,255,528,132"/>
+        <TextBlock TextWrapping="Wrap" Text="Maximum time for action" Margin="10,257,694,109"/>
+        <TextBlock TextWrapping="Wrap" Text="Forks" Margin="546,0,172,386"/>
+        <TextBlock TextWrapping="Wrap" Text="Philosophers" Margin="652,0,42,386"/>
+
+    </Grid>
+</Window>
